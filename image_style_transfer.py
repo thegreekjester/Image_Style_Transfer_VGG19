@@ -76,4 +76,4 @@ for ii in range(1, STEPS+1):
     total_loss.backward()
     optimizer.step()
 
-cv2.imwrite('saved_images/final_image.jpg', utils.im_convert(target))
+cv2.imwrite('saved_images/corgi.png', utils.im_convert(target))
